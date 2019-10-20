@@ -2,9 +2,7 @@
 
 ## 第一章·MySQL体系结构和存储引擎
 
-<img src="D:\media\MySQL_pc\mysqlSystenStucture.png" style="zoom:67%;" />
-
-<img src="D:\media\MySQL_pc\130517055145641.png
+<img src="./MySQL_pc/mysqlSystenStucture.png" style="zoom:67%;" />
 
   											                                   MySQL体系结构
 
@@ -107,7 +105,7 @@ InnoDB存储引擎组成部分:缓冲池，重做日志缓冲 以及额外的内
 
 ​		具体来看，缓冲池缓存的数据页类型有：索引页，数据页，undo页（*数据库未修改前的数据页*），插入缓存，自适应性哈希索引，InnoDB存储的锁信息（lock info），数据字典信息等。
 
-<img src="D:\media\MySQL_pc\cache.png" style="zoom:80%;" />
+<img src="./MySQL_pc/cache.png" style="zoom:80%;" />
 
 ## 2.2master thread
 
@@ -204,7 +202,7 @@ background loop，若当前没有用户活动（数据库空闲时），或者�
 
 #### 2.3.2 二次写
 
-<img src="D:\media\MySQL_pc\InnoDBDoubleWrite.png" style="zoom:80%;" />
+<img src="./MySQL_pc/InnoDBDoubleWrite.png" style="zoom:80%;" />
 
 ​			
 
@@ -246,7 +244,7 @@ background loop，若当前没有用户活动（数据库空闲时），或者�
 
 ​		表空间是InnoDB存储引擎逻辑结构的最高层，所有数据都存放在表空间中。
 
-<img src="D:\media\MySQL_pc\InnoDBMemoryEngineLogicalMemoryStructure.png" style="zoom:80%;" />
+<img src="./MySQL_pc/InnoDBMemoryEngineLogicalMemoryStructure.png" style="zoom:80%;" />
 
 #### 3.1.2段
 
@@ -278,7 +276,7 @@ InnoDB数据页组成部分：
 6. Page Space(页目录)
 7. File Trailer(文件结尾信息)
 
-<img src="D:\media\MySQL_pc\InnoDBDataPageStructure.png" style="zoom:70%;" />	
+<img src="./MySQL_pc/InnoDBDataPageStructure.png" style="zoom:70%;" />	
 
 ​                          **InnoDB存储引擎数据页结构图**
 
