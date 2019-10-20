@@ -2,7 +2,7 @@
 
 ## 第一章·MySQL体系结构和存储引擎
 
-<img src="D:\media\MySQL_pc\mysqlSystenStucture.png" style="zoom:67%;" />
+<img src="./MySQL_pc/mysqlSystenStucture.png" style="zoom:67%;" />
 
 <img src="D:\media\MySQL_pc\130517055145641.png
 
